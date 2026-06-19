@@ -1,9 +1,9 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Portfólio de Atividades</title>
 
 <style>
@@ -20,7 +20,7 @@
 body{
     min-height:100vh;
     background:linear-gradient(135deg,#0f172a,#1e293b,#2563eb);
-    padding:60px 20px;
+    padding:40px 20px;
 }
 
 .container{
@@ -28,71 +28,114 @@ body{
     margin:auto;
 }
 
-.titulo{
+header{
     text-align:center;
-    margin-bottom:50px;
+    margin-bottom:40px;
 }
 
-.titulo h1{
+header h1{
     color:white;
     font-size:3rem;
-    font-weight:700;
+    margin-bottom:10px;
 }
 
-.titulo p{
+header p{
     color:#cbd5e1;
-    margin-top:10px;
-    font-size:1.1rem;
+}
+
+.formulario{
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:25px;
+    padding:30px;
+    margin-bottom:40px;
+}
+
+.formulario h2{
+    color:white;
+    margin-bottom:20px;
+}
+
+.input-group{
+    margin-bottom:15px;
+}
+
+label{
+    display:block;
+    color:white;
+    margin-bottom:6px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    outline:none;
+    font-size:15px;
+}
+
+textarea{
+    min-height:120px;
+    resize:vertical;
+}
+
+input[type="file"]{
+    background:white;
+}
+
+.btn{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
 }
 
 .cards{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
     gap:25px;
 }
 
 .card{
     background:rgba(255,255,255,0.08);
     backdrop-filter:blur(15px);
-    border:1px solid rgba(255,255,255,0.15);
-    border-radius:24px;
-    padding:30px;
-    transition:.4s;
-    position:relative;
-    overflow:hidden;
-}
-
-.card::before{
-    content:'';
-    position:absolute;
-    width:180px;
-    height:180px;
-    background:rgba(255,255,255,0.08);
-    border-radius:50%;
-    top:-80px;
-    right:-80px;
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:25px;
+    padding:25px;
+    transition:.3s;
 }
 
 .card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 20px 40px rgba(0,0,0,.25);
+    transform:translateY(-6px);
 }
 
 .numero{
-    width:60px;
-    height:60px;
-    border-radius:18px;
+    width:55px;
+    height:55px;
+    border-radius:15px;
     background:linear-gradient(135deg,#3b82f6,#60a5fa);
+    color:white;
     display:flex;
     align-items:center;
     justify-content:center;
-    color:white;
-    font-size:1.3rem;
     font-weight:bold;
-    margin-bottom:20px;
+    margin-bottom:15px;
 }
 
-.card h2{
+.card h3{
     color:white;
     margin-bottom:10px;
 }
@@ -100,28 +143,35 @@ body{
 .card p{
     color:#dbeafe;
     line-height:1.7;
-    margin-bottom:20px;
+    margin-bottom:15px;
 }
 
-.btn{
-    display:inline-block;
-    padding:12px 22px;
-    border-radius:12px;
+.arquivo{
+    color:#93c5fd;
     text-decoration:none;
-    background:white;
-    color:#2563eb;
-    font-weight:600;
-    transition:.3s;
+    display:inline-block;
+    margin-bottom:15px;
 }
 
-.btn:hover{
-    background:#dbeafe;
+.excluir{
+    width:100%;
+    border:none;
+    padding:10px;
+    border-radius:10px;
+    background:#dc2626;
+    color:white;
+    cursor:pointer;
 }
 
-footer{
+.excluir:hover{
+    background:#b91c1c;
+}
+
+.vazio{
+    color:white;
     text-align:center;
-    color:#cbd5e1;
-    margin-top:60px;
+    opacity:.8;
+    margin-top:30px;
 }
 
 </style>
@@ -130,64 +180,148 @@ footer{
 
 <div class="container">
 
-    <div class="titulo">
-        <h1>Minhas Atividades</h1>
-        <p>Portfólio Acadêmico 2026</p>
+<header>
+    <h1>Portfólio de Atividades</h1>
+    <p>Cadastre suas atividades acadêmicas</p>
+</header>
+
+<div class="formulario">
+
+    <h2>Nova Atividade</h2>
+
+    <div class="input-group">
+        <label>Nome da atividade</label>
+        <input type="text" id="nome">
     </div>
 
-    <div class="cards">
-
-        <div class="card">
-            <div class="numero">01</div>
-            <h2>Atividade 01</h2>
-            <p>
-                Descrição da atividade desenvolvida.
-                Explique os objetivos, conteúdos estudados
-                e resultados obtidos.
-            </p>
-            <a href="#" class="btn">Abrir Arquivo</a>
-        </div>
-
-        <div class="card">
-            <div class="numero">02</div>
-            <h2>Atividade 02</h2>
-            <p>
-                Descrição da atividade desenvolvida.
-                Explique os objetivos, conteúdos estudados
-                e resultados obtidos.
-            </p>
-            <a href="#" class="btn">Abrir Arquivo</a>
-        </div>
-
-        <div class="card">
-            <div class="numero">03</div>
-            <h2>Atividade 03</h2>
-            <p>
-                Descrição da atividade desenvolvida.
-                Explique os objetivos, conteúdos estudados
-                e resultados obtidos.
-            </p>
-            <a href="#" class="btn">Abrir Arquivo</a>
-        </div>
-
-        <div class="card">
-            <div class="numero">04</div>
-            <h2>Atividade 04</h2>
-            <p>
-                Descrição da atividade desenvolvida.
-                Explique os objetivos, conteúdos estudados
-                e resultados obtidos.
-            </p>
-            <a href="#" class="btn">Abrir Arquivo</a>
-        </div>
-
+    <div class="input-group">
+        <label>Descrição</label>
+        <textarea id="descricao"></textarea>
     </div>
 
-    <footer>
-        © 2026 • Portfólio Acadêmico
-    </footer>
+    <div class="input-group">
+        <label>Arquivo</label>
+        <input type="file" id="arquivo">
+    </div>
+
+    <button class="btn" onclick="adicionarAtividade()">
+        Adicionar Atividade
+    </button>
 
 </div>
 
+<div id="lista" class="cards"></div>
+
+<div id="mensagemVazia" class="vazio">
+    Nenhuma atividade cadastrada.
+</div>
+
+</div>
+
+<script>
+
+let atividades =
+JSON.parse(localStorage.getItem("atividades")) || [];
+
+function salvar(){
+    localStorage.setItem(
+        "atividades",
+        JSON.stringify(atividades)
+    );
+}
+
+function renderizar(){
+
+    const lista =
+    document.getElementById("lista");
+
+    const vazio =
+    document.getElementById("mensagemVazia");
+
+    lista.innerHTML = "";
+
+    if(atividades.length === 0){
+        vazio.style.display = "block";
+        return;
+    }
+
+    vazio.style.display = "none";
+
+    atividades.forEach((atividade,index)=>{
+
+        lista.innerHTML += `
+        <div class="card">
+
+            <div class="numero">
+                ${String(index+1).padStart(2,"0")}
+            </div>
+
+            <h3>${atividade.nome}</h3>
+
+            <p>${atividade.descricao}</p>
+
+            ${
+                atividade.arquivo
+                ? `<span class="arquivo">📎 ${atividade.arquivo}</span>`
+                : ""
+            }
+
+            <button
+            class="excluir"
+            onclick="remover(${index})">
+            Excluir
+            </button>
+
+        </div>
+        `;
+    });
+}
+
+function adicionarAtividade(){
+
+    const nome =
+    document.getElementById("nome").value.trim();
+
+    const descricao =
+    document.getElementById("descricao").value.trim();
+
+    const arquivo =
+    document.getElementById("arquivo").files[0];
+
+    if(!nome || !descricao){
+        alert("Preencha todos os campos.");
+        return;
+    }
+
+    atividades.push({
+        nome,
+        descricao,
+        arquivo: arquivo ? arquivo.name : ""
+    });
+
+    salvar();
+    renderizar();
+
+    document.getElementById("nome").value = "";
+    document.getElementById("descricao").value = "";
+    document.getElementById("arquivo").value = "";
+}
+
+function remover(index){
+
+    if(confirm("Deseja excluir esta atividade?")){
+
+        atividades.splice(index,1);
+
+        salvar();
+        renderizar();
+    }
+}
+
+renderizar();
+
+</script>
+
 </body>
 </html>
+```
