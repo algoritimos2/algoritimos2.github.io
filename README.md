@@ -3,313 +3,191 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfólio Acadêmico</title>
+
+<title>Portfólio de Atividades</title>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, sans-serif;
+    font-family:'Poppins',sans-serif;
 }
 
 body{
-    background:#f4f6f9;
-    color:#333;
-}
-
-header{
-    background:#0d47a1;
-    color:white;
-    text-align:center;
+    min-height:100vh;
+    background:linear-gradient(135deg,#0f172a,#1e293b,#2563eb);
     padding:60px 20px;
 }
 
-header h1{
-    font-size:3rem;
-}
-
-header p{
-    margin-top:10px;
-}
-
-nav{
-    background:#08306b;
-    padding:15px;
-    text-align:center;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
-}
-
-section{
+.container{
     max-width:1200px;
     margin:auto;
-    padding:50px 20px;
 }
 
-h2{
-    color:#0d47a1;
-    margin-bottom:20px;
+.titulo{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.titulo h1{
+    color:white;
+    font-size:3rem;
+    font-weight:700;
+}
+
+.titulo p{
+    color:#cbd5e1;
+    margin-top:10px;
+    font-size:1.1rem;
 }
 
 .cards{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:20px;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
 }
 
 .card{
-    background:white;
-    border-radius:10px;
-    padding:20px;
-    box-shadow:0 3px 10px rgba(0,0,0,.1);
-    transition:.3s;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius:24px;
+    padding:30px;
+    transition:.4s;
+    position:relative;
+    overflow:hidden;
+}
+
+.card::before{
+    content:'';
+    position:absolute;
+    width:180px;
+    height:180px;
+    background:rgba(255,255,255,0.08);
+    border-radius:50%;
+    top:-80px;
+    right:-80px;
 }
 
 .card:hover{
-    transform:translateY(-5px);
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
 }
 
-.card h3{
-    color:#1565c0;
+.numero{
+    width:60px;
+    height:60px;
+    border-radius:18px;
+    background:linear-gradient(135deg,#3b82f6,#60a5fa);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:1.3rem;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.card h2{
+    color:white;
+    margin-bottom:10px;
 }
 
 .card p{
-    margin:10px 0;
+    color:#dbeafe;
+    line-height:1.7;
+    margin-bottom:20px;
 }
 
 .btn{
     display:inline-block;
-    padding:10px 20px;
-    background:#1565c0;
-    color:white;
+    padding:12px 22px;
+    border-radius:12px;
     text-decoration:none;
-    border-radius:5px;
+    background:white;
+    color:#2563eb;
+    font-weight:600;
+    transition:.3s;
 }
 
 .btn:hover{
-    background:#0d47a1;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-    background:white;
-}
-
-table th{
-    background:#1565c0;
-    color:white;
-}
-
-table th, table td{
-    border:1px solid #ddd;
-    padding:12px;
+    background:#dbeafe;
 }
 
 footer{
-    background:#08306b;
-    color:white;
     text-align:center;
-    padding:25px;
-}
-
-.perfil{
-    display:flex;
-    gap:30px;
-    align-items:center;
-    flex-wrap:wrap;
-}
-
-.foto{
-    width:180px;
-    height:180px;
-    border-radius:50%;
-    background:#ddd;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    color:#cbd5e1;
+    margin-top:60px;
 }
 
 </style>
 </head>
 <body>
 
-<header>
-    <h1>Portfólio Acadêmico 2026</h1>
-    <p>Nome do Aluno - Curso Técnico / Ensino Médio</p>
-</header>
+<div class="container">
 
-<nav>
-    <a href="#sobre">Sobre Mim</a>
-    <a href="#atividades">Atividades</a>
-    <a href="#projetos">Projetos</a>
-    <a href="#cronograma">Cronograma</a>
-    <a href="#contato">Contato</a>
-</nav>
+    <div class="titulo">
+        <h1>Minhas Atividades</h1>
+        <p>Portfólio Acadêmico 2026</p>
+    </div>
 
-<section id="sobre">
+    <div class="cards">
 
-    <h2>Sobre Mim</h2>
-
-    <div class="perfil">
-
-        <div class="foto">
-            Sua Foto
-        </div>
-
-        <div>
+        <div class="card">
+            <div class="numero">01</div>
+            <h2>Atividade 01</h2>
             <p>
-                Escreva aqui uma breve apresentação.
-                Fale sobre sua escola, curso,
-                objetivos e o que aprendeu durante o ano.
+                Descrição da atividade desenvolvida.
+                Explique os objetivos, conteúdos estudados
+                e resultados obtidos.
             </p>
+            <a href="#" class="btn">Abrir Arquivo</a>
+        </div>
+
+        <div class="card">
+            <div class="numero">02</div>
+            <h2>Atividade 02</h2>
+            <p>
+                Descrição da atividade desenvolvida.
+                Explique os objetivos, conteúdos estudados
+                e resultados obtidos.
+            </p>
+            <a href="#" class="btn">Abrir Arquivo</a>
+        </div>
+
+        <div class="card">
+            <div class="numero">03</div>
+            <h2>Atividade 03</h2>
+            <p>
+                Descrição da atividade desenvolvida.
+                Explique os objetivos, conteúdos estudados
+                e resultados obtidos.
+            </p>
+            <a href="#" class="btn">Abrir Arquivo</a>
+        </div>
+
+        <div class="card">
+            <div class="numero">04</div>
+            <h2>Atividade 04</h2>
+            <p>
+                Descrição da atividade desenvolvida.
+                Explique os objetivos, conteúdos estudados
+                e resultados obtidos.
+            </p>
+            <a href="#" class="btn">Abrir Arquivo</a>
         </div>
 
     </div>
 
-</section>
-
-<section id="atividades">
-
-<h2>Atividades Realizadas</h2>
-
-<div class="cards">
-
-    <div class="card">
-        <h3>Atividade 01</h3>
-        <p>Descrição da atividade.</p>
-        <a href="#" class="btn">Ver Arquivo</a>
-    </div>
-
-    <div class="card">
-        <h3>Atividade 02</h3>
-        <p>Descrição da atividade.</p>
-        <a href="#" class="btn">Ver Arquivo</a>
-    </div>
-
-    <div class="card">
-        <h3>Atividade 03</h3>
-        <p>Descrição da atividade.</p>
-        <a href="#" class="btn">Ver Arquivo</a>
-    </div>
-
-    <div class="card">
-        <h3>Atividade 04</h3>
-        <p>Descrição da atividade.</p>
-        <a href="#" class="btn">Ver Arquivo</a>
-    </div>
+    <footer>
+        © 2026 • Portfólio Acadêmico
+    </footer>
 
 </div>
-
-</section>
-
-<section id="projetos">
-
-<h2>Projetos Desenvolvidos</h2>
-
-<div class="cards">
-
-    <div class="card">
-        <h3>Projeto 1</h3>
-        <p>
-            Explique o objetivo do projeto,
-            tecnologias utilizadas e resultados.
-        </p>
-    </div>
-
-    <div class="card">
-        <h3>Projeto 2</h3>
-        <p>
-            Explique o objetivo do projeto,
-            tecnologias utilizadas e resultados.
-        </p>
-    </div>
-
-    <div class="card">
-        <h3>Projeto 3</h3>
-        <p>
-            Explique o objetivo do projeto,
-            tecnologias utilizadas e resultados.
-        </p>
-    </div>
-
-</div>
-
-</section>
-
-<section id="cronograma">
-
-<h2>Evolução Durante o Ano</h2>
-
-<table>
-
-<tr>
-    <th>Mês</th>
-    <th>Atividade Principal</th>
-    <th>Status</th>
-</tr>
-
-<tr>
-    <td>Março</td>
-    <td>Introdução ao Curso</td>
-    <td>Concluído</td>
-</tr>
-
-<tr>
-    <td>Abril</td>
-    <td>Primeiro Projeto</td>
-    <td>Concluído</td>
-</tr>
-
-<tr>
-    <td>Maio</td>
-    <td>Relatório Técnico</td>
-    <td>Concluído</td>
-</tr>
-
-<tr>
-    <td>Junho</td>
-    <td>Apresentação</td>
-    <td>Concluído</td>
-</tr>
-
-</table>
-
-</section>
-
-<section>
-
-<h2>Minhas Habilidades</h2>
-
-<ul>
-    <li>HTML e CSS</li>
-    <li>Python</li>
-    <li>Banco de Dados</li>
-    <li>Pacote Office</li>
-    <li>Trabalho em Equipe</li>
-</ul>
-
-</section>
-
-<section id="contato">
-
-<h2>Contato</h2>
-
-<p>Email: seuemail@email.com</p>
-<p>Turma: XXXX</p>
-<p>Escola: Nome da Escola</p>
-
-</section>
-
-<footer>
-    <p>Portfólio Acadêmico - Atualizado em 2026</p>
-</footer>
 
 </body>
 </html>
