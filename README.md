@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portal de Engenharia Elétrica</title>
+<title>Portfólio Acadêmico</title>
 
 <style>
 *{
@@ -16,312 +16,299 @@
 body{
     background:#f4f6f9;
     color:#333;
-    line-height:1.6;
 }
 
 header{
-    background:linear-gradient(135deg,#003366,#0055aa);
+    background:#0d47a1;
     color:white;
-    padding:80px 20px;
     text-align:center;
+    padding:60px 20px;
 }
 
 header h1{
     font-size:3rem;
 }
 
-nav{
-    background:#002244;
-    padding:15px;
-    position:sticky;
-    top:0;
+header p{
+    margin-top:10px;
 }
 
-nav ul{
-    display:flex;
-    justify-content:center;
-    list-style:none;
-    gap:20px;
+nav{
+    background:#08306b;
+    padding:15px;
+    text-align:center;
 }
 
 nav a{
     color:white;
     text-decoration:none;
+    margin:0 15px;
     font-weight:bold;
 }
 
-nav a:hover{
-    color:#ffcc00;
-}
-
-.container{
+section{
     max-width:1200px;
     margin:auto;
-    padding:40px 20px;
-}
-
-section{
-    margin-bottom:60px;
+    padding:50px 20px;
 }
 
 h2{
-    color:#003366;
+    color:#0d47a1;
     margin-bottom:20px;
 }
 
 .cards{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
     gap:20px;
 }
 
 .card{
     background:white;
-    padding:20px;
     border-radius:10px;
-    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    padding:20px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
 }
 
 .card h3{
-    color:#0055aa;
+    color:#1565c0;
+}
+
+.card p{
+    margin:10px 0;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#1565c0;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#0d47a1;
 }
 
 table{
     width:100%;
     border-collapse:collapse;
-    margin-top:20px;
-}
-
-table th, table td{
-    border:1px solid #ccc;
-    padding:12px;
+    background:white;
 }
 
 table th{
-    background:#003366;
+    background:#1565c0;
     color:white;
+}
+
+table th, table td{
+    border:1px solid #ddd;
+    padding:12px;
 }
 
 footer{
-    background:#002244;
+    background:#08306b;
     color:white;
     text-align:center;
-    padding:30px;
+    padding:25px;
 }
 
-.btn{
-    display:inline-block;
-    background:#0055aa;
-    color:white;
-    padding:12px 25px;
-    border-radius:5px;
-    text-decoration:none;
-    margin-top:20px;
+.perfil{
+    display:flex;
+    gap:30px;
+    align-items:center;
+    flex-wrap:wrap;
 }
 
-.btn:hover{
-    background:#003366;
+.foto{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background:#ddd;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
+
 </style>
 </head>
 <body>
 
 <header>
-    <h1>Portal de Engenharia Elétrica</h1>
-    <p>Conhecimento, inovação e tecnologia elétrica em um só lugar.</p>
+    <h1>Portfólio Acadêmico 2026</h1>
+    <p>Nome do Aluno - Curso Técnico / Ensino Médio</p>
 </header>
 
 <nav>
-    <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#areas">Áreas</a></li>
-        <li><a href="#disciplinas">Disciplinas</a></li>
-        <li><a href="#mercado">Mercado</a></li>
-        <li><a href="#contato">Contato</a></li>
-    </ul>
+    <a href="#sobre">Sobre Mim</a>
+    <a href="#atividades">Atividades</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#cronograma">Cronograma</a>
+    <a href="#contato">Contato</a>
 </nav>
 
-<div class="container">
-
 <section id="sobre">
-    <h2>O que é Engenharia Elétrica?</h2>
-    <p>
-        A Engenharia Elétrica é o ramo da engenharia responsável pelo estudo,
-        projeto, desenvolvimento e manutenção de sistemas elétricos,
-        eletrônicos e energéticos. Os engenheiros eletricistas atuam em áreas
-        como geração de energia, automação industrial, telecomunicações,
-        eletrônica, controle e sistemas inteligentes.
-    </p>
-</section>
 
-<section id="areas">
-    <h2>Principais Áreas de Atuação</h2>
+    <h2>Sobre Mim</h2>
 
-    <div class="cards">
+    <div class="perfil">
 
-        <div class="card">
-            <h3>Sistemas de Potência</h3>
-            <p>
-                Planejamento e operação de redes de transmissão,
-                distribuição e geração de energia elétrica.
-            </p>
+        <div class="foto">
+            Sua Foto
         </div>
 
-        <div class="card">
-            <h3>Automação Industrial</h3>
+        <div>
             <p>
-                Desenvolvimento de sistemas automatizados,
-                CLPs, sensores e controle de processos.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Eletrônica</h3>
-            <p>
-                Projeto de circuitos eletrônicos,
-                dispositivos semicondutores e sistemas embarcados.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Telecomunicações</h3>
-            <p>
-                Redes de comunicação, internet,
-                telefonia móvel e transmissão de dados.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Energias Renováveis</h3>
-            <p>
-                Sistemas solares, eólicos e novas tecnologias
-                para produção sustentável de energia.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Inteligência Artificial</h3>
-            <p>
-                Aplicação de IA para monitoramento,
-                previsão e otimização de sistemas elétricos.
+                Escreva aqui uma breve apresentação.
+                Fale sobre sua escola, curso,
+                objetivos e o que aprendeu durante o ano.
             </p>
         </div>
 
     </div>
+
 </section>
 
-<section id="disciplinas">
-    <h2>Disciplinas do Curso</h2>
+<section id="atividades">
 
-    <table>
-        <tr>
-            <th>Disciplina</th>
-            <th>Descrição</th>
-        </tr>
+<h2>Atividades Realizadas</h2>
 
-        <tr>
-            <td>Cálculo</td>
-            <td>Base matemática para modelagem de sistemas.</td>
-        </tr>
+<div class="cards">
 
-        <tr>
-            <td>Física</td>
-            <td>Estudo de eletricidade, magnetismo e mecânica.</td>
-        </tr>
-
-        <tr>
-            <td>Circuitos Elétricos</td>
-            <td>Análise e projeto de circuitos.</td>
-        </tr>
-
-        <tr>
-            <td>Máquinas Elétricas</td>
-            <td>Motores, geradores e transformadores.</td>
-        </tr>
-
-        <tr>
-            <td>Controle e Automação</td>
-            <td>Sistemas de controle industriais.</td>
-        </tr>
-
-        <tr>
-            <td>Eletrônica Digital</td>
-            <td>Portas lógicas, microcontroladores e sistemas digitais.</td>
-        </tr>
-    </table>
-</section>
-
-<section id="mercado">
-    <h2>Mercado de Trabalho</h2>
-
-    <p>
-        O mercado para engenheiros eletricistas continua em expansão devido
-        ao crescimento das energias renováveis, cidades inteligentes,
-        automação industrial e transformação digital.
-    </p>
-
-    <br>
-
-    <div class="cards">
-
-        <div class="card">
-            <h3>Empresas de Energia</h3>
-            <p>Usinas, distribuidoras e concessionárias.</p>
-        </div>
-
-        <div class="card">
-            <h3>Indústrias</h3>
-            <p>Automação, manutenção e controle de processos.</p>
-        </div>
-
-        <div class="card">
-            <h3>Tecnologia</h3>
-            <p>Eletrônica, software embarcado e IA.</p>
-        </div>
-
-        <div class="card">
-            <h3>Consultoria</h3>
-            <p>Projetos elétricos e eficiência energética.</p>
-        </div>
-
+    <div class="card">
+        <h3>Atividade 01</h3>
+        <p>Descrição da atividade.</p>
+        <a href="#" class="btn">Ver Arquivo</a>
     </div>
-</section>
 
-<section>
-    <h2>Curiosidades</h2>
+    <div class="card">
+        <h3>Atividade 02</h3>
+        <p>Descrição da atividade.</p>
+        <a href="#" class="btn">Ver Arquivo</a>
+    </div>
 
-    <ul>
-        <li>A eletricidade viaja próxima à velocidade da luz.</li>
-        <li>Transformadores permitem transmitir energia a grandes distâncias.</li>
-        <li>Redes inteligentes (Smart Grids) já utilizam IA.</li>
-        <li>O setor elétrico é fundamental para a indústria moderna.</li>
-    </ul>
+    <div class="card">
+        <h3>Atividade 03</h3>
+        <p>Descrição da atividade.</p>
+        <a href="#" class="btn">Ver Arquivo</a>
+    </div>
 
-    <a href="#contato" class="btn">Fale Conosco</a>
-</section>
-
-<section id="contato">
-    <h2>Contato</h2>
-
-    <form>
-        <label>Nome</label><br>
-        <input type="text" style="width:100%;padding:10px;"><br><br>
-
-        <label>E-mail</label><br>
-        <input type="email" style="width:100%;padding:10px;"><br><br>
-
-        <label>Mensagem</label><br>
-        <textarea rows="5" style="width:100%;padding:10px;"></textarea><br><br>
-
-        <button class="btn">Enviar</button>
-    </form>
-</section>
+    <div class="card">
+        <h3>Atividade 04</h3>
+        <p>Descrição da atividade.</p>
+        <a href="#" class="btn">Ver Arquivo</a>
+    </div>
 
 </div>
 
+</section>
+
+<section id="projetos">
+
+<h2>Projetos Desenvolvidos</h2>
+
+<div class="cards">
+
+    <div class="card">
+        <h3>Projeto 1</h3>
+        <p>
+            Explique o objetivo do projeto,
+            tecnologias utilizadas e resultados.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Projeto 2</h3>
+        <p>
+            Explique o objetivo do projeto,
+            tecnologias utilizadas e resultados.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Projeto 3</h3>
+        <p>
+            Explique o objetivo do projeto,
+            tecnologias utilizadas e resultados.
+        </p>
+    </div>
+
+</div>
+
+</section>
+
+<section id="cronograma">
+
+<h2>Evolução Durante o Ano</h2>
+
+<table>
+
+<tr>
+    <th>Mês</th>
+    <th>Atividade Principal</th>
+    <th>Status</th>
+</tr>
+
+<tr>
+    <td>Março</td>
+    <td>Introdução ao Curso</td>
+    <td>Concluído</td>
+</tr>
+
+<tr>
+    <td>Abril</td>
+    <td>Primeiro Projeto</td>
+    <td>Concluído</td>
+</tr>
+
+<tr>
+    <td>Maio</td>
+    <td>Relatório Técnico</td>
+    <td>Concluído</td>
+</tr>
+
+<tr>
+    <td>Junho</td>
+    <td>Apresentação</td>
+    <td>Concluído</td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>Minhas Habilidades</h2>
+
+<ul>
+    <li>HTML e CSS</li>
+    <li>Python</li>
+    <li>Banco de Dados</li>
+    <li>Pacote Office</li>
+    <li>Trabalho em Equipe</li>
+</ul>
+
+</section>
+
+<section id="contato">
+
+<h2>Contato</h2>
+
+<p>Email: seuemail@email.com</p>
+<p>Turma: XXXX</p>
+<p>Escola: Nome da Escola</p>
+
+</section>
+
 <footer>
-    <p>© 2026 Portal de Engenharia Elétrica</p>
-    <p>Desenvolvido para fins educacionais.</p>
+    <p>Portfólio Acadêmico - Atualizado em 2026</p>
 </footer>
 
 </body>
