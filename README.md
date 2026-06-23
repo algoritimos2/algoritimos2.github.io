@@ -253,7 +253,7 @@ footer{
 
         <p>
             <strong>Repositório GitHub:</strong><br>
-            <a href="SEU_LINK_GITHUB"
+            <a href="https://github.com/algoritimos2/algoritimos2.github.io/tree/main"
                target="_blank">
                SEU_LINK_GITHUB
             </a>
@@ -263,7 +263,7 @@ footer{
 
         <p>
             <strong>Site Publicado (GitHub.io):</strong><br>
-            <a href="SEU_LINK_GITHUB_IO"
+            <a href="algoritimos2.github.io"
                target="_blank">
                SEU_LINK_GITHUB_IO
             </a>
@@ -273,7 +273,7 @@ footer{
 
         <p>
             <strong>Último Commit (Hash):</strong><br>
-            HASH_DO_ULTIMO_COMMIT
+            fe55057
         </p>
 
     </section>
