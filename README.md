@@ -30,7 +30,7 @@ body{
 
 .titulo{
     text-align:center;
-    margin-bottom:50px;
+    margin-bottom:30px;
 }
 
 .titulo h1{
@@ -43,6 +43,30 @@ body{
     color:#cbd5e1;
     margin-top:10px;
     font-size:1.1rem;
+}
+
+/* IDENTIFICAÇÃO DO ALUNO */
+
+.identificacao{
+    max-width:700px;
+    margin:0 auto 50px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius:24px;
+    padding:25px;
+    text-align:center;
+    color:white;
+}
+
+.identificacao h2{
+    color:#dbeafe;
+    margin-bottom:15px;
+}
+
+.identificacao p{
+    margin:8px 0;
+    color:#f1f5f9;
 }
 
 .cards{
@@ -133,6 +157,16 @@ footer{
     <div class="titulo">
         <h1>Minhas Atividades</h1>
         <p>Portfólio Acadêmico 2026</p>
+    </div>
+
+    <div class="identificacao">
+        <h2>Identificação do Aluno</h2>
+
+        <p><strong>Nome:</strong> Seu Nome Completo</p>
+        <p><strong>Turma:</strong> Sua Turma</p>
+        <p><strong>Matrícula:</strong> Seu Número de Matrícula</p>
+        <p><strong>Professor:</strong> Nome do Professor</p>
+        <p><strong>Disciplina:</strong> Desenvolvimento Web</p>
     </div>
 
     <div class="cards">
