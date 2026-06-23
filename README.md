@@ -187,65 +187,177 @@ footer{
         <p><strong>Semestre:</strong> 2026</p>
     </section>
 
-    <section id="atividades">
+<section id="atividades">
 
-        <div class="cards">
+```
+<div class="cards">
 
-            <div class="card">
-                <div class="numero">01</div>
-                <h2>Atividade 01</h2>
-                <p>
-                    Descrição da primeira atividade realizada durante o semestre.
-                </p>
-                <a href="SEU_LINK_ATIVIDADE_01"
-                   target="_blank"
-                   class="btn">
-                    Ver Atividade
-                </a>
-            </div>
+    <div class="card">
+        <div class="numero">01</div>
+        <h2>Preenchimento do formulário de diagnóstico inicial</h2>
+        <p>Data de entrega: 17/03/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
 
-            <div class="card">
-                <div class="numero">02</div>
-                <h2>Atividade 02</h2>
-                <p>
-                    Descrição da segunda atividade realizada durante o semestre.
-                </p>
-                <a href="SEU_LINK_ATIVIDADE_02"
-                   target="_blank"
-                   class="btn">
-                    Ver Atividade
-                </a>
-            </div>
+    <div class="card">
+        <div class="numero">02</div>
+        <h2>QUIZ – Lógica de Programação (Preparatório em aula)</h2>
+        <p>Data de entrega: 20/03/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
 
-            <div class="card">
-                <div class="numero">03</div>
-                <h2>Atividade 03</h2>
-                <p>
-                    Descrição da terceira atividade realizada durante o semestre.
-                </p>
-                <a href="SEU_LINK_ATIVIDADE_03"
-                   target="_blank"
-                   class="btn">
-                    Ver Atividade
-                </a>
-            </div>
+    <div class="card">
+        <div class="numero">03</div>
+        <h2>QUIZ – Diagnóstico de Lógica de Programação</h2>
+        <p>Data de entrega: 27/03/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
 
-            <div class="card">
-                <div class="numero">04</div>
-                <h2>Atividade 04</h2>
-                <p>
-                    Descrição da quarta atividade realizada durante o semestre.
-                </p>
-                <a href="SEU_LINK_ATIVIDADE_04"
-                   target="_blank"
-                   class="btn">
-                    Ver Atividade
-                </a>
-            </div>
+    <div class="card">
+        <div class="numero">04</div>
+        <h2>Lista de 15 exercícios: escolher e resolver</h2>
+        <p>Data de entrega: 31/03/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
 
-        </div>
+    <div class="card">
+        <div class="numero">05</div>
+        <h2>Lista de 10 Exercícios da Introdução a Algoritmos com Python by Claude.ai</h2>
+        <p>Data de entrega: 10/04/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
 
-    </section>
+    <div class="card">
+        <div class="numero">06</div>
+        <h2>Geração e Avaliação de Exercícios de Algoritmos com LLMs</h2>
+        <p>Data de entrega: 10/04/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">07</div>
+        <h2>Quiz de Avaliação da Atividade: Uso de LLMs em Algoritmos e Programação</h2>
+        <p>Data de entrega: 10/04/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">08</div>
+        <h2>Resolver os 5 exercícios em papel</h2>
+        <p>Data de entrega: 21/04/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">09</div>
+        <h2>Resolver os exercícios de listas/vetores/arrays em Python</h2>
+        <p>Data de entrega: 24/04/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">10</div>
+        <h2>Formulação e Resolução de Problemas com Vetores/Listas usando LLMs</h2>
+        <p>Data de entrega: 24/04/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">11</div>
+        <h2>Gerar as diferentes versões do código até ter resultados visuais interessantes e consistentes</h2>
+        <p>Data de entrega: 05/05/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">12</div>
+        <h2>Problemas de outras disciplinas – resolução em múltiplas abordagens</h2>
+        <p>Data de entrega: 08/05/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">13</div>
+        <h2>Escolher e entregar 1 dos dois problemas de engenharia propostos</h2>
+        <p>Data de entrega: 12/05/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">14</div>
+        <h2>Entregar o outro dos dois problemas de engenharia propostos da aula passada</h2>
+        <p>Data de entrega: 15/05/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">15</div>
+        <h2>Escolher e resolver um problema de engenharia</h2>
+        <p>Data de entrega: 19/05/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">16</div>
+        <h2>Evolução técnica da solução desenvolvida na atividade anterior</h2>
+        <p>Data de entrega: 22/05/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">17</div>
+        <h2>Escreva um breve relato sincero sobre as entrevistas</h2>
+        <p>Data de entrega: 09/06/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">18</div>
+        <h2>Modularização de Código e Avaliação de LLMs (em aula)</h2>
+        <p>Data de entrega: 09/06/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">19</div>
+        <h2>Avaliar criticamente o site alegrete.org</h2>
+        <p>Data de entrega: 16/06/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">20</div>
+        <h2>Desenvolvimento Assistido por IA para o Portal Alegrete.org</h2>
+        <p>Data de entrega: 16/06/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">21</div>
+        <h2>Postar o link e um print do seu site .github.io</h2>
+        <p>Data de entrega: 19/06/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">22</div>
+        <h2>Projeto Final da Disciplina: Portfólio de Entregas no GitHub.io (Versão 1)</h2>
+        <p>Data de entrega: 23/06/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+    <div class="card">
+        <div class="numero">23</div>
+        <h2>[ENTREGA FINAL] Projeto Final da Disciplina: Portfólio de Entregas no GitHub.io</h2>
+        <p>Data de entrega: 30/06/2026<br>Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.</p>
+        <a href="#" class="btn">Ver Atividade</a>
+    </div>
+
+</div>
+```
+
+</section>
+
 
     <section id="projeto" class="identificacao links">
 
