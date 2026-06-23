@@ -255,7 +255,7 @@ footer{
             <strong>Repositório GitHub:</strong><br>
             <a href="https://github.com/algoritimos2/algoritimos2.github.io/tree/main"
                target="_blank">
-               SEU_LINK_GITHUB
+               https://github.com/algoritimos2/algoritimos2.github.io
             </a>
         </p>
 
@@ -265,7 +265,7 @@ footer{
             <strong>Site Publicado (GitHub.io):</strong><br>
             <a href="algoritimos2.github.io"
                target="_blank">
-               SEU_LINK_GITHUB_IO
+               algoritimos2.github.io
             </a>
         </p>
 
