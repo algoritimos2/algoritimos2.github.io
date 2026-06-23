@@ -202,214 +202,282 @@ footer{
     <div class="card">
         <div class="numero">01</div>
         <h2>Preenchimento do formulário de diagnóstico inicial</h2>
-        <p>📅 17/03/2026</p>
-        <a href="#" class="btn" title="Envie ou veja o formulário de diagnóstico inicial">
-            Ver Atividade
-        </a>
+        <p><strong>Data:</strong> 17/03/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">02</div>
         <h2>QUIZ – Lógica de Programação (Preparatório em aula)</h2>
-        <p>📅 20/03/2026</p>
-        <a href="#" class="btn" title="Quiz preparatório de lógica de programação em aula">
-            Ver Atividade
-        </a>
+        <p><strong>Data:</strong> 20/03/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">03</div>
         <h2>QUIZ – Diagnóstico de Lógica de Programação</h2>
-        <p>📅 27/03/2026</p>
-        <a href="#" class="btn" title="Quiz diagnóstico de lógica de programação">
-            Ver Atividade
-        </a>
+        <p><strong>Data:</strong> 27/03/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">04</div>
         <h2>Lista de 15 exercícios: escolher e resolver</h2>
-        <p>📅 31/03/2026</p>
-        <a href="#" class="btn" title="Lista de 15 exercícios de lógica e algoritmos">
-            Ver Atividade
-        </a>
+        <p><strong>Data:</strong> 31/03/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">05</div>
         <h2>Lista de 10 Exercícios da Introdução a Algoritmos com Python</h2>
-        <p>📅 10/04/2026</p>
-        <a href="#" class="btn" title="Exercícios da apostila de introdução a algoritmos">
-            Ver Atividade
-        </a>
+        <p><strong>Data:</strong> 10/04/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">06</div>
-        <h2>Geração e Avaliação de Exercícios com LLMs</h2>
-        <p>📅 10/04/2026</p>
-        <a href="#" class="btn" title="Uso de LLMs para geração de exercícios">
-            Ver Atividade
-        </a>
+        <h2>Geração e Avaliação de Exercícios de Algoritmos com LLMs</h2>
+        <p><strong>Data:</strong> 10/04/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">07</div>
-        <h2>Quiz de Avaliação: Uso de LLMs em Programação</h2>
-        <p>📅 10/04/2026</p>
-        <a href="#" class="btn" title="Avaliação sobre uso de IA em programação">
-            Ver Atividade
-        </a>
+        <h2>Quiz de Avaliação da Atividade: Uso de LLMs em Algoritmos</h2>
+        <p><strong>Data:</strong> 10/04/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">08</div>
         <h2>Resolver os 5 exercícios em papel</h2>
-        <p>📅 21/04/2026</p>
-        <a href="#" class="btn" title="Exercícios resolvidos manualmente em papel">
-            Ver Atividade
-        </a>
+        <p><strong>Data:</strong> 21/04/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">09</div>
-        <h2>Exercícios de listas/vetores em Python</h2>
-        <p>📅 24/04/2026</p>
-        <a href="#" class="btn" title="Programação com listas e vetores em Python">
-            Ver Atividade
-        </a>
+        <h2>Resolver os exercícios de listas/vetores/arrays em Python</h2>
+        <p><strong>Data:</strong> 24/04/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">10</div>
-        <h2>Formulação e Resolução com Vetores/Listas usando LLMs</h2>
-        <p>📅 24/04/2026</p>
-        <a href="#" class="btn" title="Uso de IA para resolver problemas com listas">
-            Ver Atividade
-        </a>
+        <h2>Formulação e Resolução de Problemas com Vetores/Listas</h2>
+        <p><strong>Data:</strong> 24/04/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">11</div>
-        <h2>Evolução de código com versões visuais</h2>
-        <p>📅 05/05/2026</p>
-        <a href="#" class="btn" title="Melhoria de código com foco visual">
-            Ver Atividade
-        </a>
+        <h2>Gerar versões do código com resultados visuais</h2>
+        <p><strong>Data:</strong> 05/05/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">12</div>
         <h2>Problemas de outras disciplinas – múltiplas abordagens</h2>
-        <p>📅 08/05/2026</p>
-        <a href="#" class="btn" title="Resolução de problemas multidisciplinares">
-            Ver Atividade
-        </a>
+        <p><strong>Data:</strong> 08/05/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">13</div>
-        <h2>Problema de engenharia (1 de 2)</h2>
-        <p>📅 12/05/2026</p>
-        <a href="#" class="btn" title="Primeiro problema de engenharia resolvido">
-            Ver Atividade
-        </a>
+        <h2>Escolher e entregar problema de engenharia</h2>
+        <p><strong>Data:</strong> 12/05/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">14</div>
-        <h2>Problema de engenharia (2 de 2)</h2>
-        <p>📅 15/05/2026</p>
-        <a href="#" class="btn" title="Segundo problema de engenharia resolvido">
-            Ver Atividade
-        </a>
+        <h2>Entregar outro problema de engenharia</h2>
+        <p><strong>Data:</strong> 15/05/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">15</div>
         <h2>Escolher e resolver problema de engenharia</h2>
-        <p>📅 19/05/2026</p>
-        <a href="#" class="btn" title="Problema de engenharia escolhido e resolvido">
-            Ver Atividade
-        </a>
+        <p><strong>Data:</strong> 19/05/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">16</div>
         <h2>Evolução técnica da solução anterior</h2>
-        <p>📅 22/05/2026</p>
-        <a href="#" class="btn" title="Melhoria da solução anterior">
-            Ver Atividade
-        </a>
+        <p><strong>Data:</strong> 22/05/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">17</div>
         <h2>Relato sobre entrevistas</h2>
-        <p>📅 09/06/2026</p>
-        <a href="#" class="btn" title="Relato pessoal sobre entrevistas">
-            Ver Atividade
-        </a>
+        <p><strong>Data:</strong> 09/06/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">18</div>
         <h2>Modularização de Código e LLMs</h2>
-        <p>📅 09/06/2026</p>
-        <a href="#" class="btn" title="Comparação de modelos de IA e modularização">
-            Ver Atividade
-        </a>
+        <p><strong>Data:</strong> 09/06/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">19</div>
-        <h2>Avaliação crítica do site alegrete.org</h2>
-        <p>📅 16/06/2026</p>
-        <a href="#" class="btn" title="Análise crítica de um site público">
-            Ver Atividade
-        </a>
+        <h2>Avaliar site alegrete.org</h2>
+        <p><strong>Data:</strong> 16/06/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">20</div>
-        <h2>Desenvolvimento com IA para o portal Alegrete.org</h2>
-        <p>📅 16/06/2026</p>
-        <a href="#" class="btn" title="Projeto com IA para portal da cidade">
-            Ver Atividade
-        </a>
+        <h2>Desenvolvimento com IA – Alegrete.org</h2>
+        <p><strong>Data:</strong> 16/06/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">21</div>
-        <h2>Postar link e print do site GitHub.io</h2>
-        <p>📅 19/06/2026</p>
-        <a href="#" class="btn" title="Entrega do site publicado">
-            Ver Atividade
-        </a>
+        <h2>Postar link e print do GitHub.io</h2>
+        <p><strong>Data:</strong> 19/06/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">22</div>
-        <h2>Projeto final (versão 1)</h2>
-        <p>📅 23/06/2026</p>
-        <a href="#" class="btn" title="Versão 1 do portfólio final">
-            Ver Atividade
-        </a>
+        <h2>Projeto Final (Versão 1)</h2>
+        <p><strong>Data:</strong> 23/06/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
     <div class="card">
         <div class="numero">23</div>
-        <h2>Entrega final do portfólio</h2>
-        <p>📅 30/06/2026</p>
-        <a href="#" class="btn" title="Entrega final completa do projeto">
-            Ver Atividade
-        </a>
+        <h2>Entrega Final do Portfólio GitHub.io</h2>
+        <p><strong>Data:</strong> 30/06/2026</p>
+
+        <div class="desc">
+            Descrição da atividade desenvolvida. Explique os objetivos, conteúdos estudados e resultados obtidos.
+        </div>
+
+        <a href="#" class="btn">Ver Atividade</a>
     </div>
 
 </div>
 
 </section>
-
 
     <section id="projeto" class="identificacao links">
 
