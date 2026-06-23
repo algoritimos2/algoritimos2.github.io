@@ -162,11 +162,10 @@ footer{
     <div class="identificacao">
         <h2>Identificação do Aluno</h2>
 
-        <p><strong>Nome:</strong> Seu Nome Completo</p>
-        <p><strong>Turma:</strong> Sua Turma</p>
-        <p><strong>Matrícula:</strong> Seu Número de Matrícula</p>
-        <p><strong>Professor:</strong> Nome do Professor</p>
-        <p><strong>Disciplina:</strong> Desenvolvimento Web</p>
+        <p><strong>Nome:</strong> Lucas Viana de Freitas</p>
+        <p><strong>Matrícula:</strong> 2610101377</p>
+        <p><strong>Professor:</strong> Diego Luis Kreutz</p>
+        <p><strong>Disciplina:</strong> Algoritmos e Programação</p>
     </div>
 
     <div class="cards">
