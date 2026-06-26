@@ -1804,7 +1804,7 @@ svg.ring circle {
         </div>
         <div class="commit-badge">
           <span class="commit-dot"></span>
-          Último commit: <strong>fe55057</strong>
+          Último commit: <strong>b3638f3</strong>
         </div>
       </div>
       <div class="project-aside">
